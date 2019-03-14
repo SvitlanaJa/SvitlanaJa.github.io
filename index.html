@@ -1,83 +1,28 @@
 <html>
 	<head>
-		<style>
-				div {border: 1px #444 solid;
-					padding:10px;}
-				.menu-4 
-						div{font-size:25px;}	
-					
-				.menu { display:flex;
-						flex-direction:row;
-						justify-content:space-around;
-						background-color:#2baf2b}
-				.header { display:flex;
-						flex-direction:row;
-						justify-content:space-around;
-						background-color:#15e615}
-				.he-1 {width:74%
-				}
-				.he-2 {width:20%
-				}
-				div.he-2 img{width:103%}
-				.content {display:flex;
-						flex-direction:row;
-						justify-content:space-around;
-						background-color:#15e615}
-				.block-1 {width:60%
-				}
-				.block-2 {width:35%
-				}
-				.block-2-2 img{width:49%}
-		</style>
+		<script>
+		function mytest(val)
+		{ alert(val);
+		console.log(val+' '+val);
+		}
+		
+		</script>
 	</head>
 		<body>
-			<div class="header">
-							<div class="he-1">
-								<div>birdwatching</div>
-							</div>
-							<div class="he-2">
-								<div>	<img src="D:\Світлана\курси Brain Basket\1.jpg"></div>
-							</div>
+			<div onclick="alert('11');console.log('11');">
+			aaa aaa aaa
 			</div>
-			
-					<div class="menu">
-							<div class="menu-1">
-								<div>home</div>
-							</div>
-							<div class="menu-2">
-								<div>get starter</div>
-							</div>
-							<div class="menu-3">
-								<div>photos</div>
-							</div>
-							<div class="menu-4">
-								<div>gear</div>
-							</div>
-							<div class="menu-5">
-								<div>forum</div>
-							</div>
-					</div>
-							
-			<div class="content">
-							<div class="block-1">
-								welcom
-							</div>
-							<div class="block-2">
-								<div class="block-2-1">
-								favorite fotos
-								</div>
-								<div class="block-2-2">
-									<img src="D:\Світлана\курси Brain Basket\1.jpg">
-									<img src="D:\Світлана\курси Brain Basket\1.jpg">
-									<img src="D:\Світлана\курси Brain Basket\1.jpg">
-									<img src="D:\Світлана\курси Brain Basket\1.jpg">
-								</div>
-							</div>
-								
-							
-			
+			<br>
+			<div onclick="console.log('22');">
+			bbb bbb bbb
 			</div>
-			<div class="footer">
-			
+			<br>
+			<div onclick="mytest('333');">
+			ccc
+			</div>
+			<div class="test">
+			ccc
 			</div>
 		</body>
+			
+</html>
