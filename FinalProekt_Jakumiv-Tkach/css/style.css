@@ -198,7 +198,7 @@ a.head_links:hover {
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 159px;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
   position: relative;
   margin-top: 101px;
 }
@@ -226,7 +226,7 @@ a.head_links:hover {
   color: white;
   font-family: 'Myanmar Text';
   font-weight: 700;
-  font-size: 36px;
+  font-size: 54px;
   text-align: center;
   margin: 0; 
 }
@@ -642,7 +642,7 @@ a.head_links:hover {
   display: block;
   color: #202020;
   font-family: "Source Sans Pro";
-  font-size: 14px;
+  font-size: 52px;
   font-weight: 500;
   margin-top: 10px; 
 }
